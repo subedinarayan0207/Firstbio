@@ -78,4 +78,43 @@ h1 {
    padding: 20px;
     width: 100%;
      bottom: 0;
-     text-align: center;
+     text-align: center;}
+    
+p{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right,#0575e6,#021b79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.input,
+.msg .area{
+width: 100%;
+padding: 30px;
+box-sizing: border-box;
+margin-bottom: 25px;
+border: 2px solid grey;
+
+}
+.submit{
+  width: 100%;
+  text-align: left;
+
+}
+.submit .btn{
+  backround: linear-gradient( to right,lightgrey,lightgrey;
+  padding: 12px 85px;
+  font-size: 19px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+}
+::-webkit-input-placeholder{
+  font-family: 'oswald';
+  color: #0575e6;
+}
